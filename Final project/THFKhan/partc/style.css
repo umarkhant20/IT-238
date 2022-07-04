@@ -1,0 +1,75 @@
+/*Umar Khan, Final Part C, Mar 13, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+body {
+    font-family: Arial, serif, sans-serif, Georgia, Courier, monospace; 
+    text-align: center;
+    font-size: 18px;
+    color: #D6ED17FF;
+    background-color: #D6ED17FF;
+}
+
+/*It displays underlined heading 1 with the choosen color*/
+h1 {
+    text-decoration: underline #D6ED17FF;
+}
+
+/*It creates a section in the center of the page, set the choosen background color of the section,
+and set the inside and outside space for the section */
+#container {
+	height: 100%;
+	background-color:#606060ff;
+	background-size: cover;
+	background-position: center;
+	width: 90%; 
+    margin: 0 50px;
+	padding: 1.5%;
+	overflow: auto;
+    border: double;
+    border-color: #D6ED17FF;
+    border-width: 4px;
+}
+
+/*It display border at the bottom of the para only with the choosen color*/
+p {
+    border-style: double;
+    border-color: #D6ED17FF;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+/*It sets images with given margin, width, border, and border color*/
+img  { 
+    margin: 5px;
+    border: 5px solid 000080;
+    width: 150px; 
+    border-color: red;
+}
+
+/*It creates the rounded corner of the button, make the text and button bigger from the inside, 
+change the background and font color */
+#btn1 {  border-radius: 4px;
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-width: 3.5px;
+    background-color: #606060ff;
+    color: #D6ED17FF;
+    border-color: #D6ED17FF;
+}
+
+/* It changes the color of the text and border of the button, mouse over effect*/
+#btn1:hover {
+    background-color: #D6ED17FF;
+    color: #606060ff;
+    border-color: #ffffff;
+}
+
+/* It changes the color of the text on the button on click*/
+#btn1:active {
+    background-color: #D6ED17FF;
+    color: #ffffff;
+}

@@ -1,0 +1,119 @@
+/*Umar Khan, Final Part B, Mar 12, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+body {
+    font-family: Arial, serif, sans-serif, Georgia, Courier, monospace; 
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #C3073F;
+}
+
+/*It creates a section in the center of the page, set the choosen background color of the section,
+and set the inside and outside space for the section */
+#container {
+	height: 100%;
+	background-color:#1A1A1D;
+	background-size: cover;
+	background-position: center;
+	width: 90%; 
+    margin: 0 50px;
+	padding: 1.5%;
+	overflow: auto;
+    border: double;
+    border-color: #C3073F;
+    border-width: 4px;
+}
+
+/*It displays underlined heading 1 with the choosen color*/
+h1 {
+    text-decoration: underline #C3073F;
+}
+
+/*It displays the textfields as inline block*/
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+/*It sets the given color in the background of all the textfields, keeps the font size 15 px and 
+bold*/
+input {
+    background-color: #C3073F;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+/*It changes the color of the border, background, and font of the textfields, mouse over effect*/
+input:hover {
+    border-color: #C3073F;
+    background-color: #1A1A1D;
+    color: #ffffff;
+}
+
+/*It hides the from the numeric textfields*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*It creates the rounded corner of the button, make the text and button bigger from the inside, 
+change the background and font color */
+#button {  border-radius: 4px;
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #C3073F;
+    color: #ffffff;
+}
+
+/* It changes the color of the text and border of the button, mouse over effect*/
+#button:hover {
+    background-color: #1A1A1D;
+    color: #ffffff;
+    border-color: #C3073F;
+}
+
+/* It changes the color of the text on the button on click*/
+#button:active {
+    background-color: #C3073F;
+    color: #1A1A1D;
+}
+
+/*This block of code changes the color, width, height, and border-color of the radio buttons*/
+input[type='radio']:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #C3073F;
+}
+/* This block of code changes the color of radio button after getting checked*/
+input[type='radio']:checked:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #C3073F;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #ffffff;
+}
+/*It displays the radio buttons inline block*/
+#pluss, #minuss, #multiplyy, #dividee {
+   display: inline-block;
+   width: 40px;
+}

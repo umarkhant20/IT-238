@@ -1,0 +1,42 @@
+<!--Umar Khan, Final Part B, Mar 12, 2021-->
+<!DOCTYPE html> <!--It defines the document type-->
+<html lang="en"> <!--It is the root of the HTML document-->
+
+<head> <!--It contains specific information that is not displayed to the user-->
+    <title>Final Part B</title> <!--It adds title in the browser toolbar and displays title for the page in the search engine results-->
+    <meta charset="UTF-8"> <!--It provides the information about the web page and specifing the character set-->
+    <script src="script.js"></script> <!--It's a script file link that contains all the javascript code for the web page-->
+    <link rel="stylesheet" href="style.css"> <!--It's a ink to css file that contain all the style of the Web page-->
+</head>
+
+<body>  <!--It contains all the contents of the document and this is displayed to the user-->
+    <div id="container"> <!--It divides the content into a specific section-->       
+        <h1>Calculator App</h1>  <!--It displays the highest level of heading on the web page-->   
+    </div>
+    <div id="container"> <!--It divides the content into a specific section-->
+        <label for="operand1">Operand 1:</label> <!--It creates a label for input element-->
+        <input type="text" id="operand1" name="operand1"><br><br> <!--It provides textfield to enter any number-->
+
+        <label for="operand2">Operand 2:</label> <!--It creates a label for input element-->
+        <input type="text" id="operand2" name="operand2"><br><br> <!--It provides textfield to enter any number-->
+
+        <label for="result">Result:</label>  <!--It creates a label for input element-->
+        <input type="text" id="result" ><br><br> <!--This textfield displays the result-->
+   
+        <input type="radio" id="plus" name="operation" value="+"> <!--It displays plus radio button-->
+        <label for="plus" id="pluss">+</label>  <!--It creates a label for input element-->
+
+        <input type="radio" id="minus" name="operation" value="-"> <!--It displays minus radio button-->
+        <label for="minus" id="minuss">-</label>  <!--It creates a label for input element-->
+        
+        <input type="radio" id="multiply" name="operation" value="*"> <!--It displays multiply radio button-->
+        <label for="multiply" id="multiplyy">*</label>  <!--It creates a label for input element-->
+        
+        <input type="radio" id="divide" name="operation" value="/"> <!--It displays divide radio button-->
+        <label for="divide" id="dividee">/</label><br><br>  <!--It creates a label for input element-->
+
+        <button id="button">Clear All</button><!--It displays the button to clear all text fields-->
+    </div>    
+
+</body>
+</html>

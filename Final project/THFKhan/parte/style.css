@@ -1,0 +1,62 @@
+/*Umar Khan, Final Part E, Mar 13, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+body {font-family: Arial, serif, sans-serif, Georgia, Courier, monospace; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F4A896;
+    background-color: #F4A896;
+}
+
+/*It creates a section in the center of the page, set the choosen background color of the section,
+and set the inside and outside space for the section */
+#container {
+	height: 100%;
+	background-color:#358597;
+	background-size: cover;
+	background-position: center;
+	width: 90%; 
+    margin: 0 50px;
+	padding: 1.5%;
+	overflow: auto;
+    border:double;
+    border-color: #F4A896;
+    border-width: 8px;
+}
+
+/*It displays underlined heading 1 with the choosen color*/
+h1 {
+    text-decoration: underline #ffff;
+}
+
+/*It creates the rounded corner of the button, make the text and button bigger from the inside, 
+change the background and font color */
+#button {  border-radius: 4px;
+    padding: 6px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #358597;
+    color: #F4A896;
+    border-color: #ffff;
+}
+
+/* It changes the color of the text and border of the button, mouse over effect*/
+#button:hover {
+    background-color: #ffff;
+    color: #358597;
+    border-color:  #F4A896;
+}
+
+/* It changes the color of the text on the button on click*/
+#button:active {
+    background-color: #358597;
+    color: #F4A896;
+}
+
+/*It displays underlined paragraph with the choosen color*/
+p {
+    text-decoration: underline #ffff;
+}
