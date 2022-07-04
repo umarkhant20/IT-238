@@ -1,0 +1,17 @@
+/*Umar Khan, project 1b, Jan 20, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+
+body {font-family: 'Times New Roman', Times, serif, sans-serif, Arial, Georgia;
+    background-color: rgb(125, 248, 166);
+    text-align: center;
+}
+
+/*It defines the class and displays the result with green highlighted black text*/
+
+.divResults{
+    color: #000000;
+    background: #00ff22;
+    font-size: 20px;    
+}

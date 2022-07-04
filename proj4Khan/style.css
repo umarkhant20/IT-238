@@ -1,0 +1,85 @@
+/*Umar Khan, project 4, Feb 25, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+body {font-family: Arial, serif, sans-serif, Georgia, Courier, monospace; 
+    text-align: center;
+    font-size: 22px;
+    color:  #00203FFF;
+    background-color: #00203FFF;
+}
+
+/*It creates a section in the center of the page, set the choosen background color of the section,
+and set the inside and outside space for the sectionn */
+#container {
+	height: 100%;
+	background-color:#ADEFD1FF;
+	background-size: cover;
+	background-position: center;
+	width: 90%; 
+    margin: 0 50px;
+	padding: 1.5%;
+	overflow: auto;
+    border: dashed;
+    border-width: 4px;
+}
+
+/*It creates inside and outside space, keeps text to the left, and keeps the width to 50% in the section*/
+#container2 {
+    border-top: 5px ridge;
+    border-color: #00203FFF;
+	width: 55%; 
+    margin: 0 250px;
+	padding: 0 1.5% 0 1.5%;
+	overflow: auto;
+    text-align: left;
+}
+
+/*It brings the heading 5 in the center of the page*/
+h5 {
+    text-align: center;
+}
+
+/*It creates inside and outside space, centers the text, and keeps the width to 50% in the section*/
+#container3 {
+    border-top: 5px ridge;
+    border-color: #00203FFF;
+	width: 55%; 
+    margin: 0 250px;
+	padding: 0 1.5% 0 1.5%;
+	overflow: auto;
+    text-align: center;
+}
+
+/*It adjusts the size of the images*/
+img {
+    height: 20px;
+    width: 20;
+}
+
+/*It creates the rounded corner of the button, make the text and button bigger from the inside, 
+change the background and font color */
+button {  border-radius: 4px;
+    font-weight: bold;
+    padding: 7px;
+    font-size: 15px;
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+}
+
+/* It changes the color of the text on the button, mouse over effect*/
+button:hover {
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+}
+
+/* It changes the color of the text on the button on click*/
+button:active {
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+}
+
+/*It creates outside space on top of the button*/
+#btn6 {
+    margin-top: 20px;
+}

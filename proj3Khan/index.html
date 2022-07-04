@@ -1,0 +1,32 @@
+<!--Umar Khan, project 3, Feb 12, 2021-->
+<!DOCTYPE html> <!--It defines the document type-->
+<html lang="en"> <!--It is the root of the HTML document-->
+<head> <!--It contains specific information that is not displayed to the user-->
+    <title>Project 3</title> <!--It adds title in the browser toolbar and displays title for the page in the search engine results-->
+    <meta charset="UTF-8"> <!--It provides the information about the web page and specifing the character set-->
+    <script src="script.js"></script> <!--It's a script file link that contains all the javascript code for the web page-->
+    <link rel="stylesheet" href="style.css"> <!--It's a ink to css file that contain all the style of the Web page-->
+</head>
+<body>  <!--It contains all the contents of the document and this is displayed to the user-->
+    <h1>Lotto Simulator</h1>  <!--It displays the highest level of heading on the web page-->
+    
+    <label for="ballsDrawn">Number of Balls Drawn: <span id="numberBallsDrawn"></span></label> <!--It creates a label for input element-->
+    <input type="range" id="ballsDrawn" min="1" max="5" class="slider"> <!--It creates the slider to select the number of balls drawn on the webpage-->
+
+    <br> <!--It creates a single line break-->
+    <br>
+    <label for="numBallsRange">Number of Lotto Balls: <span id="ballsRange"></span></label> <!--It creates a label for input element-->
+    <input type="range" id="numBallsRange" min="1" max="30" class="slider"> <!--It creates the slider to select the number of range from the balls on the webpage-->
+
+    <br>
+    <br>
+    <img id="1"> <!--These img tags brings ramdon images from the images folder-->
+    <img id="2">
+    <img id="3">
+    <img id="4">
+    <img id="5">
+    <br> <!--It creates a single line break-->
+    <br>
+    <button id="btn">Draw Balls</button> <!--It creates the button to draw balls on the web page-->
+</body>
+</html>

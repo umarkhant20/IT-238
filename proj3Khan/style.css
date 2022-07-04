@@ -1,0 +1,66 @@
+/*Umar Khan, project 3, Feb 12, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+body {font-family: Arial, serif, sans-serif, Georgia, Courier, monospace; 
+    text-align: center;
+    font-size: 22px;
+    animation: mymove 5s infinite;
+}
+
+/*It changes the backgroud color from the given rgb to the given rgb*/
+@keyframes mymove {
+  from {background-color: rgb(255, 233, 111);}
+  to {background-color: rgb(255, 241, 159);}
+}
+
+/*It created shadow and double underline on heading 1*/
+h1 {
+    text-decoration: underline double;
+    text-shadow: 5px 1px #949393;
+}
+
+/*It gives shape, width, height, rounded corner, and color to the slider*/
+.slider {
+    -webkit-appearance: none;
+    width: 25%;
+    height: 18px;
+    border-radius: 7px;  
+    background: #5ebeff;
+    outline: none;
+    opacity: 10;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+/*It changes the color of the slider, mouse over effect*/  
+.slider:hover {
+  background: #addeff;
+}  
+
+/*It creates the border, provide the given height and width, rounded corner, and the given color for the area of the images*/
+img { margin: 15px;
+      height:100px;
+      width:100px; 
+      border: ridge;
+      border-radius: 10px;
+      background-color: #5ebeff;
+      
+}
+
+/*It creates the rounded corner of the button and make the text and button bigger from the inside*/
+button {  border-radius: 7px;
+          font-weight: bold;
+          padding: 10px;
+          font-size: 15px;
+}
+
+/* It changes the color of the text on the button, mouse over effect*/
+button:hover {
+	color: #4b16fb;
+}
+
+/* It changes the color of the text on the button on click*/
+button:active {
+	color: #44fb16;
+}

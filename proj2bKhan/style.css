@@ -1,0 +1,73 @@
+/*Umar Khan, project 2b, Feb 17, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+
+body {font-family: serif, sans-serif, Arial, Georgia, Courier, monospace;
+      background-color: #d493ff;
+      text-align: center;
+}
+
+/*It created shadow and double underline on heading 1*/
+h1 {
+    text-decoration: underline;
+    text-shadow: 5px 1px #949393;
+}
+
+/*It creates 2px inner space and emphasize the text*/
+.fileUpload {
+    font-weight: bold;
+    padding: 2px;
+}
+
+/*It creates the rounded corner of the input element and sets the given height and width*/
+input {
+        border-radius: 10px;
+        width:200px;
+        height: 30px;
+}
+
+/*It creates the rounded corner of the textarea and adjust the height and width automatically*/
+textarea {  
+            border-radius: 7px;
+            height: auto;
+            width: auto;
+}
+
+/*It creates the rounded corner of the button and make the text and button bigger from the inside*/
+button { 
+            border-radius: 7px;
+            font-weight: bold;
+            padding: 6px;
+            font-size: 15px;
+ }
+
+/* It changes the color of the text on the button, mouse over effect*/
+button:hover {
+                background-color: #b23dff;
+}
+
+/* It changes the color of the text on the button on click*/
+button:active {
+                background-color: hsl(266, 100%, 50%);
+}
+
+/*It seperates the footer from the content by creating a border*/
+footer {
+	padding-top: 2px;
+	clear: both;
+	text-align: center;
+	border-top: 3px ridge;
+}
+
+/*It changes the color of font into black, underline, and emphasize it*/
+footer a {
+	text-decoration: underline;
+    font-weight: bold;
+	color: black;
+}
+
+/* It changes the color of the link for home page, mouse over effect*/
+footer a:hover {
+	color: #b23dff;
+}

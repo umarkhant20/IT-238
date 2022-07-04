@@ -1,0 +1,72 @@
+<!--Umar Khan, project 5, Mar 03, 2021-->
+<!DOCTYPE html> <!--It defines the document type-->
+<html lang="en"> <!--It is the root of the HTML document-->
+
+<head> <!--It contains specific information that is not displayed to the user-->
+    <title>Project 5</title> <!--It adds title in the browser toolbar and displays title for the page in the search engine results-->
+    <meta charset="UTF-8"> <!--It provides the information about the web page and specifing the character set-->
+    <script src="script.js"></script> <!--It's a script file link that contains all the javascript code for the web page-->
+    <link rel="stylesheet" href="style.css"> <!--It's a ink to css file that contain all the style of the Web page-->
+</head>
+
+<body>  <!--It contains all the contents of the document and this is displayed to the user-->
+<div id="container"> <!--It divides the content into a specific section-->    
+    <h1>Hotel Reservation</h1>  <!--It displays the highest level of heading on the web page-->   
+</div>    
+<div id="container"> <!--It divides the content into a specific section-->  
+    <form name="form1" 
+    action="http://ectweb.cs.depaul.edu/sjost/receipt.php"
+    method="POST">
+
+  <label for="fname">*Full Name:</label><br> <!--It creates a label for input element-->
+  <input type="text" id="fname" name="fname"><br><br> <!--It provides textfield to enter name-->
+
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email"><br><br> <!--It provides textfield to enter an email-->
+
+  <label for="age">Age:</label><br>
+  <input type="number" id="name" name="age" placeholder="Enter numbers only"><br><br> <!--It provides textfield to enter the age-->
+
+  <label for="checkIn">Check in:</label><br>
+  <input type="date" id="checkIn" name="checkIn"><br><br> <!--It provides textfield to enter check in date-->
+
+  <label for="checkOut">Check out:</label><br>
+  <input type="date" id="checkOut" name="checkOut"><br><br> <!--It provides textfield to enter check out date-->
+
+  <label for="numGuests">Number of guests:</label><br><br> 
+  <select id="numGuests" name="numGuests"> <!--It provides a dropdown options to select from it-->
+    <option>0</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select><br><br>
+
+  <label for="roomtype">Room type:</label><br><br> 
+  <select id="roomtype" name="roomtype"> <!--It provides a dropdown options to select from it-->
+    <option>. . . . . . . . .</option>
+    <option>Full size</option>
+    <option>King size</option>
+    <option>Queen size</option>
+    <option>Twin size</option>
+    <option>Hotel suite</option>
+  </select><br><br>
+
+  <label for="goldenMember">Do you have our golden membership?</label><br><br> 
+  <select onchange="yesnoCheck(this)">
+    <option>. . .</option>
+    <option id="noCheck" value="No">No</option>
+    <option id="yesCheck" value="Yes">Yes</option>
+  </select><br><br>
+
+  <div id="ifYes" style="display: none;">
+  <label for="memberId">Enter your member ID:</label><br>
+  <input type="number" id="memberId" name="memberId" placeholder="#123456"><br><br> <!--It provides textfield to enter the member ID-->
+  </div>
+
+  <input type="submit" value="Reserve" id="button"> <!--It displays the Reserve button the webpage-->
+</form>
+</div>
+</body>
+
+</html>

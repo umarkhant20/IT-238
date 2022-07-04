@@ -1,0 +1,94 @@
+<!--Umar Khan, project 4, Feb 25, 2021-->
+<!DOCTYPE html> <!--It defines the document type-->
+<html lang="en"> <!--It is the root of the HTML document-->
+
+<head> <!--It contains specific information that is not displayed to the user-->
+    <title>Project 4</title> <!--It adds title in the browser toolbar and displays title for the page in the search engine results-->
+    <meta charset="UTF-8"> <!--It provides the information about the web page and specifing the character set-->
+    <script src="script.js"></script> <!--It's a script file link that contains all the javascript code for the web page-->
+    <link rel="stylesheet" href="style.css"> <!--It's a ink to css file that contain all the style of the Web page-->
+</head>
+
+<body>  <!--It contains all the contents of the document and this is displayed to the user-->
+<div id="container"> <!--It divides the content into a specific section-->    
+    <h1>Online Quiz</h1>  <!--It displays the highest level of heading on the web page-->
+    <div id="container2"> <!--It divides the content into a specific section--> 
+    <h5>Press Hint button to get help!</h5>
+    <ol> <!--It creates a numeric ordered list-->
+        
+        <li> Why do Java programmers have to wear glass? 
+        <br> <!--It creates a single line break-->
+        <ol type="a"> <!--It creates an alphabetic ordered list-->
+            <li><input type="radio" name="1" value="a"> &nbsp;
+                Because it is a requirment.</li>
+            <li><input type="radio" name="1" value="b"> &nbsp;
+                Because they don't C#.</li>
+            <li><input type="radio" name="1" value="c"> &nbsp;
+                Because they have weak eyesight.</li>
+        </ol></li>
+        <br> <!--It creates a single line break-->
+        <button id="btn">Hint</button> <!--It creates first hint button on the page-->
+        <p id="hint"></p> <!--It displays the hint on the page-->
+
+        <li>How many programmers does it take to change a light bulb?<br>
+        <ol type="a"> <!--It creates an alphabetic ordered list-->
+            <li><input type="radio" name="2" value="a"> &nbsp;
+                One to three.</li>
+            <li><input type="radio" name="2" value="b"> &nbsp;
+                More than five.</li>
+            <li><input type="radio" name="2" value="c"> &nbsp;
+                None, it's a hardware problem.</li>
+        </ol></li>
+        <br> <!--It creates a single line break-->
+        <button id="btn2">Hint</button> <!--It creates second hint button on the page-->
+        <p id="hint2"></p> <!--It displays the hint on the page-->
+        
+        <li>What did the Java code say to the C code?<br>
+        <ol type="a"> <!--It creates an alphabetic ordered list-->
+            <li><input type="radio" name="3" value="a"> &nbsp;
+                You have got no class.</li>
+            <li><input type="radio" name="3" value="b"> &nbsp;
+                You are the better one.</li>
+            <li><input type="radio" name="3" value="c"> &nbsp;
+                None of the above.</li>
+        </ol></li>
+        <br> <!--It creates a single line break-->
+        <button id="btn3">Hint</button> <!--It creates third hint button on the page-->
+        <p id="hint3"></p> <!--It displays the hint on the page-->
+        
+        <li>Why did the computer go to the dentist?<br>
+        <ol type="a"> <!--It creates an alphabetic ordered list-->
+            <li><input type="radio" name="4" value="a"> &nbsp;
+                Because it was sick.</li>
+            <li><input type="radio" name="4" value="b"> &nbsp;
+                Because it had Bluetooth.</li>
+            <li><input type="radio" name="4" value="c"> &nbsp;
+                All of the above.</li>
+        </ol></li>
+        <br> <!--It creates a single line break-->
+        <button id="btn4">Hint</button> <!--It creates fourth hint button on the page-->
+        <p id="hint4"></p> <!--It displays the hint on the page-->
+
+        <li>Why did the programmer quit his job?<br>
+            <ol type="a"> <!--It creates an alphabetic ordered list-->
+                <li><input type="radio" name="5" value="a"> &nbsp;
+                    Because he got COVID.</li>
+                <li><input type="radio" name="5" value="b"> &nbsp;
+                    Because he couldn't handle it.</li>
+                <li><input type="radio" name="5" value="c"> &nbsp;
+                    Because he didn't get arrays.</li>
+            </ol></li>
+            <br> <!--It creates a single line break-->
+            <button id="btn5">Hint</button> <!--It creates fifth hint button on the page-->
+            <p id="hint5"></p> <!--It displays the hint on the page-->
+
+        </ol>
+    </div>
+
+    <div id="container3"> <!--It divides the content into a specific section--> 
+    <button id="btn6">Compute Score</button> <!--It creates the button to compute quize score on the web page-->
+    <p id="score"></p> <!--It displays the quiz score to the user-->
+    </div>
+</div>    
+</body>
+</html>

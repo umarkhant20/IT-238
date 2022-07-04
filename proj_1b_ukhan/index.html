@@ -1,0 +1,34 @@
+<!--Umar Khan, project 1b, Jan 20, 2021-->
+
+<!DOCTYPE html> <!--It defines the document type-->
+<html lang="en"> <!--It is the root of the HTML document-->
+    
+    <head> <!--It contains specific information that is not displayed to the user-->
+        <title>Perform Calculation</title> <!--It adds title in the browser toolbar and displays title for the page in the search engine results-->
+        <meta charset="UTF-8"> <!--It provides the information about the web and specifing the character set-->
+        <link rel="stylesheet" href="style.css"> <!--It's a ink to css file that contain all the style of the Web-->
+        <script src="script.js"></script> <!--It's a script file link that contains all the javascript code for the web-->
+    </head>
+    <body> <!--It contains all the contents of the document and this is displayed to the user-->
+            <h1>Project 1b -- Perform Calculation on Webpage</h1> <!--It displays the highest level of heading on the web-->
+            <form> <!--It defines a form for the user input-->
+                <label for="MPH">Please enter the Miles Per Hour (MPH):</label> <!--It creates a label for input element-->
+                <br> <!--It creates a single line break-->
+                <input type="text" id="MPH"> <!--It creates an input box where user can enter the value-->
+                <br>
+                <br>
+                <label for="SelCal">Please Select the Conversion</label>
+                <br>
+                <select id="SelConversion"> <!--It creates a drop-down list-->
+                    <option value="KMPH">Kilometers Per Hour</option> <!--It creates an option in the drop-down list-->
+                    <option value="MPS">Meters Per Second</option>
+                </select>
+                <br>
+                <br>
+                <button id="btn1" type="button" onclick="Convertor()">Convert</button> <!--It creates a Submit button on the web-->
+            </form>
+            <h3>Result:</h3> <!--It displays the third level of heading on the web-->
+            <div type="text" id="divResults" class="divResults"> </div> <!--It creates a section--> 
+    </body>
+
+</html>

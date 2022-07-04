@@ -1,0 +1,21 @@
+/*Umar Khan, project 2a, Feb 01, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+
+body {font-family: serif, sans-serif, Arial, Georgia, Courier, monospace;
+    background-color: rgb(164, 144, 255);
+    text-align: center;
+}
+
+/*It creates the rounded corner of the input element and sets the given height and width*/
+input { border-radius: 10px;
+    width:100px;
+    height: 20px;
+}
+
+/*It creates the rounded corner of the button and textarea*/
+button, textarea {  border-radius: 7px;
+}
+
+

@@ -1,0 +1,96 @@
+/*Umar Khan, project 5, Mar 03, 2021*/
+
+/*It displays the chosen background-color to the user, select a language from the given languages,
+and brings the content in the center of the webpage*/
+body {font-family: Arial, serif, sans-serif, Georgia, Courier, monospace; 
+    text-align: center;
+    font-size: 18px;
+    color:  #F2AA4CFF;
+    background-color: #F2AA4CFF;
+}
+
+/*It creates a section in the center of the page, set the choosen background color of the section,
+and set the inside and outside space for the section */
+#container {
+	height: 100%;
+	background-color:#101820FF;
+	background-size: cover;
+	background-position: center;
+	width: 90%; 
+    margin: 0 50px;
+	padding: 1.5%;
+	overflow: auto;
+    border: double;
+    border-width: 4px;
+}
+
+/*It sets the given color in the background of all the textfields, keeps the font size 15 px and 
+bold*/
+input {
+    background-color: #F2AA4CFF;
+    color: #101820FF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+/*It changes the color of the border, background, and font of the textfields, mouse over effect*/
+input:hover {
+    border-color: #F2AA4CFF;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+}
+
+/*It hides the from the numeric textfields*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*It sets the given color in the background of the dropdown option, keeps the font size 15 px 
+and bold*/
+select {
+    background-color: #F2AA4CFF;
+    color: #101820FF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+/*It changes the color of the border of the dropdown option, mouse over effect*/
+select:hover {
+    border-color: #F2AA4CFF;
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+}
+
+/* It changes the color of the text in the dropdown options on click*/
+option {
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+}
+
+/*It creates the rounded corner of the button, make the text and button bigger from the inside, 
+change the background and font color */
+#button {  border-radius: 4px;
+    font-weight: bold;
+    padding: 7px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #F2AA4CFF;
+    color: #101820FF;
+}
+
+/* It changes the color of the text and border of the button, mouse over effect*/
+#button:hover {
+    background-color: #101820FF;
+    color: #F2AA4CFF;
+    border-color: #F2AA4CFF;
+}
+
+/* It changes the color of the text on the button on click*/
+#button:active {
+    background-color: #F2AA4CFF;
+    color: #101820FF;
+}
